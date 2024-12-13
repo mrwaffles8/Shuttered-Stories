@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuttered Stories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <!-- Navigation links for different sections of the page -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reports">User Reports</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <!-- Catchy welcome message for Shuttered Stories -->
+    <header id="home">
+        <h1>Shuttered Stories</h1>
+        <p>Your stories, captured one shutter at a time.</p>
+    </header>
+
+    <!-- Gallery Section -->
+    <!-- Displaying curated images from Tennessee -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <p>Here are some beautiful views of Tennessee mountains:</p>
+        <div class="images tennessee-mountains">
+            <img src="mountain1.jpg.png" alt="Serene Mountain View at Sunrise">
+            <img src="mountain2.jpg.png" alt="Foggy Mountain Peaks">
+            <img src="mountain3.jpg.png" alt="Autumn Colors on Tennessee Hills">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <!-- Personalized intro about the photographer -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Welcome to Shuttered Stories! I’m a photographer who loves capturing the little moments that make life beautiful. 
+            I focus on landscapes, portraits, and anything that tells a unique story. Thanks for visiting!
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact form for inquiries -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you have questions or just want to say hi, fill out the form below:</p>
+        <form action=https://formspree.io/f/xjkvdqok method="post">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- User Reports Section -->
+    <!-- User feedback form for reporting issues -->
+    <section id="reports" class="reports">
+        <h2>User Reports</h2>
+        <p>Encountered an issue or have feedback? Let us know below:</p>
+        <form action=https://formspree.io/f/xjkvdqok
+     method="post">
+            <label for="report-name">Your Name:</label><br>
+            <input type="text" id="report-name" name="report-name" required><br><br>
+
+            <label for="report-email">Your Email:</label><br>
+            <input type="email" id="report-email" name="report-email" required><br><br>
+
+            <label for="report-details">Details:</label><br>
+            <textarea id="report-details" name="report-details" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Shuttered Stories. All rights reserved.</p>
+        <!-- Modified W3C Validation badge with descriptive link -->
+        <p>Validated for HTML Standards <a href="https://validator.w3.org/check?uri=referer" target="_blank">Check Compliance</a></p>
+    </footer>
+</body>
+</html>

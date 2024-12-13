@@ -1,0 +1,5 @@
+1. As someone who loves photography, I want to browse a collection of high-quality mountain photos in a gallery format so that I can enjoy beautiful and inspiring landscapes.
+
+2. As a visitor who is interested in photography services, I want to fill out a contact form with my name, email, and message so that I can easily reach out to the photographer.
+
+3. As a curious visitor, I want to read a personal introduction about the photographer and their work so that I can understand their style and passion for photography.
